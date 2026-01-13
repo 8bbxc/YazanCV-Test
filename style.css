@@ -1,0 +1,123 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+#hello{
+    font-family: "Poppins", sans-serif;
+    color: #211f1f;
+    font-size: 1.4rem;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#hvt{
+    min-height:50hv;
+}
+
+.img-square {
+  width: 400px;
+  height: 300px;
+  border-radius: 0.75rem;
+}
+#p1{
+    color: #4a4848;
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+}
+#hF {
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+#ce{
+    color: #000000;
+    font-size: 2rem;
+    margin: 20px auto 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+
+#profile-img {
+  height: 120px;
+  width: 120px;
+  box-shadow: none;
+}
+#skills {
+    font-family: "Poppins", sans-serif;
+    color: #3245bb;
+    font-size: 2rem;
+    margin-top: 000px;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 40vh;
+}
+
+#float {
+    float: right;
+}
+
+#crd{
+    float: right;
+}
+/*italic serif for text*/
+.card-text {
+    font-family: "Playfair Display", serif;
+    color: #010101;
+    font-size: 1rem;
+}
+.card-title {
+    font-family: "Archivo Black", sans-serif;
+    color: #0f3395;
+    font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column;
+        min-height: 540;
+    }
+    
+}
+@media (max-width: 480px) {
+    .flex-container {
+        flex-direction: column;
+        min-height: 720px;
+    }
+    
+}
+.card-header2 {
+    font-family: "Poppins", sans-serif;    color: #211f1f;
+    color: #0f3395;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    text-align: center;
+}
